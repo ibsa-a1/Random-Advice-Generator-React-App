@@ -45,7 +45,7 @@
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
@@ -59,4 +59,11 @@
 .button:active {
   transform: scale(0.98);
   background-color: #2d5898;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 80%;
+        height: 30%;
+    }
 }
