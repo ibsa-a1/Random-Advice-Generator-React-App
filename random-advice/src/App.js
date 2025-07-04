@@ -26,6 +26,9 @@ class App extends Component {
         <div className='app'>
           <div className='card'>
             <h1 className='heading'>{advice}</h1>
+            <button className='button' onClick={this.fetchadvice}> 
+              <span>Give me advice</span> 
+            </button>
           </div>
         </div>
       </div>
