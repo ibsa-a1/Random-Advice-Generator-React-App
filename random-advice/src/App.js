@@ -8,7 +8,7 @@ class App extends Component {
   }
 
   fetchadvice = () => {
-    this.setState({ loading: true }); // ✅ Step 1: Start loading
+    this.setState({ loading: true }); // Step 1: Start loading
     axios.get('https://api.adviceslip.com/advice')
     .then((response) => {
       const {advice} = response.data.slip
