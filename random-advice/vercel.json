@@ -5,14 +5,5 @@
       "use": "@vercel/static-build"
     }
   ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/public/index.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/index.html"
-    }
-  ]
+  "public": "public"
 }
