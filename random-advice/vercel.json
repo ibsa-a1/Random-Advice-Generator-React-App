@@ -5,5 +5,5 @@
       "use": "@vercel/static-build"
     }
   ],
-  "public": "public"
+  "public": "true"
 }
