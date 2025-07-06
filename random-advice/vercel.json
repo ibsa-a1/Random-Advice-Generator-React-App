@@ -7,12 +7,12 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "src": "/",
+      "dest": "/public/index.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/public/index.html"
     }
   ]
 }
