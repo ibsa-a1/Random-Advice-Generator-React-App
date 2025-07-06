@@ -6,8 +6,8 @@ This is a simple and responsive React application that fetches random advice fro
 
 ## 🚀 Live Demo
 
-_**Not deployed yet.**_  
-Will be added soon!
+[_**Here is the Live demo of the simple Random Advice Generator**_  
+(https://random-advices-neon.vercel.app/)
 
 ---
 
